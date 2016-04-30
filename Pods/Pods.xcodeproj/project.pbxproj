@@ -1,0 +1,1469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002CC2BFE1BF0D6883EAA72B55EBDA72 /* SelectorDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF609DD6A96DEF281DBEE5D60E86D0 /* SelectorDatePickerRowFormer.swift */; };
+		0248D844F00EA447E0BCF48D8615C0A2 /* FormLabelHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFFBA903C2DB6994415169910D6D611 /* FormLabelHeaderView.swift */; };
+		02DD8106EF221B5F58E9D4C88EF0D4E5 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		043AE90438947CFDBB906E145A417B7C /* CustomRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235984C8EC882F4C9C68AB718836CB8 /* CustomRowFormer.swift */; };
+		099788C8A0F4AC704C6D6B1DDD832AF0 /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683324FB8E7AE9D71E71DBE37E7A38BA /* FormStepperCell.swift */; };
+		0D924ACA5AC80A79A574143591929F91 /* ANLongTapButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7643FCD7668E0EF951DAC28C2D2F4D6 /* ANLongTapButton-dummy.m */; };
+		12937A4F554E9DEF35546F7E53092A89 /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED975F9F01F988BB90332F27646A8AC /* FormTextViewCell.swift */; };
+		151856412AD59E4EA850C5BCE32D3915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		174CC2269909901D491DF64ACCA8C37E /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF92251FB5C04A2BFE40BCFE7B0AABD /* FormCell.swift */; };
+		182CDC8A598926775FCFEAD1EA7962BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		2827F0609108B69322A9981B5E1E4116 /* Former.h in Headers */ = {isa = PBXBuildFile; fileRef = 813A11B6E6BBCD3103F736C5F8B36145 /* Former.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A95C232CDF947263020D384808AD32 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CDA1B03BF67B9432F55C0FE53CE32C /* ViewController+SnapKit.swift */; };
+		2E556C5FBB781A9708783A30B2124797 /* StepperRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67324A7C1D9CF7DA240B84E4CE76CA94 /* StepperRowFormer.swift */; };
+		2F2678E16E05AC02FCCA5F67843047C3 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8BC95722E72BDF5BD28D2267DAC7B /* LayoutConstraint.swift */; };
+		31C1A2CE26D606BEFACC2440373198A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		3280A95CB7FF1A2501113F3F521CA237 /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43C99C603BC06A65E3D43EFA30760D /* FormSwitchCell.swift */; };
+		3474087A3B444BBFA747C44D4FE4620D /* SwiftOverlays-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B1E92368A63D5ECAFA47194A04285 /* SwiftOverlays-dummy.m */; };
+		3721E91E880030C73BBAE614B479E4EB /* ViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A7A3F33C468007DE517EC57603E8C /* ViewFormer.swift */; };
+		3DC0A86E4D89A401477364CF8CD73A98 /* InlinePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2691EA1D0802E0C79126EEE64FFFBDE /* InlinePickerRowFormer.swift */; };
+		40A72ADEA22A07A31673387DDEFF9139 /* FormerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9554177E56CBCD3727C39F39E5869E /* FormerProtocol.swift */; };
+		4405574535E51507DD38C7D303F0A74C /* SwiftOverlays-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE817206D7BE2C39C79AE4D90B5E04A0 /* SwiftOverlays-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452A4FB41B239ADA1F50D077E6D52C2A /* FormInlinePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000360B455FBFBD90DF13B186C90E188 /* FormInlinePickerCell.swift */; };
+		48729A06DD05BF0F4486ABEAD0EE2C94 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0620898A89A86BDC1779C45D8ACDEEE /* ConstraintItem.swift */; };
+		49C8A38E498AC0633C6B5A59984E5D5E /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B88FB9B4C2F529DA04AD4358547A5CE /* SnapKit.swift */; };
+		4D62FC76684AE8C655F5D548BCC4EDC7 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E015673B5F61140D143E1E0C0D10870 /* Debugging.swift */; };
+		4D9B38B065F35F633FA49D606F8150BD /* FormDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B98E6C660982002C4109D885E523E /* FormDatePickerCell.swift */; };
+		4E099D4A0452BCA807FC249DFF719922 /* SectionFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276F9C26509C53405BEB2C1F8ED024C /* SectionFormer.swift */; };
+		5427D5D1E3D2159A06A86275920518EA /* CheckRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41589676CE900695CF8CAADD12714AB3 /* CheckRowFormer.swift */; };
+		57DB472403F3FEF372E7A6FBF66DB87E /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E36259F91067B9417936B801F5C8AD5 /* FormPickerCell.swift */; };
+		5B474C5591981C0F025F44A6B42CC557 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D05CC49D7331DE3877EE855031A8DCB /* View+SnapKit.swift */; };
+		5BDEB1941727713E10C17996AD91D910 /* SwitchRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579334598BBB3015177B99965812B97 /* SwitchRowFormer.swift */; };
+		5DA8F0E77126E515FFC036C41207A2BF /* BaseViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5C290BB7634867EFA0A9E2B5CC5B1B /* BaseViewFormer.swift */; };
+		5EB7ED72EA54BED6E66D3C32AA2BCA5F /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B686917A8D49E17F9B82D02E580C4E /* EdgeInsets.swift */; };
+		633ADB525829CACC2F8E33D6CC7AB4F0 /* DatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FAA5DE5EC593E9CEEA50498007E67 /* DatePickerRowFormer.swift */; };
+		663657CC421AA99FE7AB32D17B511EF8 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9828AE158E24F04DD81708545AAA221 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D88B09B3CBD2FBDFD595D4225AC714 /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E6F3338125AA168D5AE4B2531FAFB /* FormCheckCell.swift */; };
+		6C3EC5853048EFD36D2805895A8E057A /* SegmentedRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCEB5238A223CF85F411B4D7E5ED54E /* SegmentedRowFormer.swift */; };
+		6C7C70448AAF11557E75C2197D0083D3 /* LabelViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC796A6225176C3FD5C57A2AF979CFB6 /* LabelViewFormer.swift */; };
+		6E7F6BCDA50CF7E87E1ADD5A9FC20418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		74D81C785F26A24C43C1B0A6B7182248 /* BaseRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6372A4ED21DBC83938E3506897520 /* BaseRowFormer.swift */; };
+		7873BF12564A7CA735F2D8D90C22E8FB /* InlineDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462D412B61FBACF2E6DB2DB098CE369 /* InlineDatePickerRowFormer.swift */; };
+		79ED8F221D3E1BB337A36A5BB4088528 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9413240A9D6E09B20E45808EF4A8B97 /* ConstraintMaker.swift */; };
+		7D13532E5F5277FB1762987D993E906B /* FormSelectorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B8AB2189856EFBBBA7262A349D8A0F /* FormSelectorPickerCell.swift */; };
+		80CBA2BB82ACDF22477606D930C64681 /* SwiftHEXColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FA6727DBC59DBB359349C9C3DFA6C6 /* SwiftHEXColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89C1888FEE14B9C4F48CC258DC74B816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		8A4FA52223B82372970C95715A9219AD /* ANLongTapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021129DA22316E62DA33CEF44D56E2DD /* ANLongTapButton.swift */; };
+		8CC39249EAD1667485C6BF341A94E8C6 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B27CA233FD175A5E330150D291B9E297 /* SnapKit-dummy.m */; };
+		93FA9E8C73608A58147E1B2F0E3D687A /* LabelRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC637F5CE78CCE56CD5B0977B70A12C /* LabelRowFormer.swift */; };
+		951E0A3A0C7CB95A2F0C35D0CDC2ED7B /* SwiftHEXColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A209EC639A7972172D517559B84A53F9 /* SwiftHEXColors-dummy.m */; };
+		9AA04C3C57F10B96862C52A47D583260 /* SelectorPickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9CB0F6360BD3B7C5A02887DE1F4ED /* SelectorPickerRowFormer.swift */; };
+		9CC221D0E76D27687505F685ED5F961E /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6166C9BC363367FD411E417713C88190 /* SwiftHEXColors.swift */; };
+		9DBBAF2EBCB60BF32F511A03663977F3 /* FormSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7CDFDBE87B6A4170965DE97878511 /* FormSegmentedCell.swift */; };
+		9E750C6271F8374C9D898F626F8F797A /* ANLongTapButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 494C6EB3C165E61ABB3E72D1990A8E60 /* ANLongTapButton.bundle */; };
+		A4B212D39E3C202BD40F51AF97F41D5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		A8975C1982FCA38DCB3C1D6336AFE816 /* PickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B5E008FA343D02F947A4718FD1B24 /* PickerRowFormer.swift */; };
+		AADB13169A72A64F2DAF2484558A17EA /* UITableViewCell+Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8BE4B652F0D713AD3D163F65835E8 /* UITableViewCell+Former.swift */; };
+		B3839F15D9DA5FAB65EC3277843835E0 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66EC0BF71B5E4AB87E48689B24BE85 /* ConstraintDescription.swift */; };
+		B5F3C5627BB59C4036B614038618AFA3 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF2D076DFEF122E48955475D5F29A1 /* ConstraintRelation.swift */; };
+		BBED4233836754F5F7A0314E4E01CAD3 /* NSTimer+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5DE2F28FE7F672E7EEA29B46100691 /* NSTimer+Closure.swift */; };
+		BD0B5950709DD24A8EB38AED85B95FD7 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613E7B31BE1D1D783BC9531BC31597E /* ConstraintAttributes.swift */; };
+		BECB0F4B442F029B68105B0B3FE5A27C /* RowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316DE6D3918F110C4AF4B3F08848447 /* RowFormer.swift */; };
+		C148448FAE44171517C343009426A231 /* ANLongTapButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF1D723B088658B62880B17498C64B3 /* ANLongTapButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA51F0E351B2CE107644CE144576A539 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC72BC2A27E3D5E7558EF0E29DE9608F /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A96CC9344504B404537215A55EF2A81 /* FormViewController.swift */; };
+		D0F6C7C9787B86A475CF8716587DBFF8 /* CustomViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49817B94185F24E18FE40B8B7E80CE21 /* CustomViewFormer.swift */; };
+		D3902B9865245AFED32C755615EAC7BD /* FormHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0446651C749857AE2A1C7B8943BBD32 /* FormHeaderFooterView.swift */; };
+		D57517AD8044C5DDC55111C953B5D067 /* Former-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 549DF31858200A89376D669DFB0189F7 /* Former-dummy.m */; };
+		D59F9BD4BA223BC2F212BFF2E394E6B7 /* Former-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE13B77BAF5AEA9803A271AB7C8E6F7 /* Former-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6619C39550F7B88EF059D4A22FFAFFD /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9413E27492457011146449C2A583D /* FormSliderCell.swift */; };
+		D6F04886703F9DC06929845DBD9947EB /* TextFieldRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B0DC539FDE7410B0D7C4203E18FC3 /* TextFieldRowFormer.swift */; };
+		D7DD26C3A5644BB4B0ACE25FFCB0EB6E /* SwiftOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21A9270C1534E6ECFC256555C749910 /* SwiftOverlays.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA7F46A9F86244A13054F6D20736D72B /* FormSelectorDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF411477345ED3AB7A213242190679B /* FormSelectorDatePickerCell.swift */; };
+		E1E2180D8113197E0CC97872828ED5C2 /* FormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF29EBABB65B26DDF7412C274F0881 /* FormLabelCell.swift */; };
+		E26151CDF788721AD0E244372389F9EB /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD036998FBA518E47A654101FF267038 /* FormTextFieldCell.swift */; };
+		E40926B2B81858537B4508290684EE2D /* FormLabelFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2996087C5155C9DFE4DD2A887F568 /* FormLabelFooterView.swift */; };
+		EF579B14B5DC267DDF0DC7A8B282C6C8 /* FormInlineDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31625AA3CDD0C90E6F2D82B2793D40 /* FormInlineDatePickerCell.swift */; };
+		F0B2D417CC688931C6DCFBDE82B9FEBC /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B97297705B0CE6EB40EC7EA68EBE1F /* Constraint.swift */; };
+		F55D7283521DFBE52FD0B285B7AC931C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		F6C9FFF73181F37FDCD4BAF375411494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		F6DA4337DD6F668DD718901B0CD7B4B5 /* Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A3EBDA815295EDAF74D06FA1CA44F /* Former.swift */; };
+		FBDBCC6B86379309EFCEBB8DA1B35071 /* SwiftHEXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FF8F245912331F3609DBA8A3B41555 /* SwiftHEXColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDDBC6340052A560147B4FB27ED18986 /* SliderRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802594DEF6FDC30E26081980CDE8C35C /* SliderRowFormer.swift */; };
+		FF54875678972D8C401702E7882D15E9 /* TextViewRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B990AE264A5BFE672879E19AB54865 /* TextViewRowFormer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24E7BB66455B598940618FE316629071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC63485EA2222C1809ECA3E9A906C54;
+			remoteInfo = SwiftHEXColors;
+		};
+		2A2417AE728E72A87A9537B22FF1BDF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AA451F136C2D11E82FE290A3E9AF77B;
+			remoteInfo = "ANLongTapButton-ANLongTapButton";
+		};
+		39FD588BA7D929D017A35684AB25B79A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4E253EC29A54D3C92F6DD0E1D343A8D;
+			remoteInfo = ANLongTapButton;
+		};
+		5E1D63E38E88C633C496E2627F80F691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334FCA0F032ED496227C4A12AFA2117F;
+			remoteInfo = SnapKit;
+		};
+		99196035CD25FAEDC8C920CCED013919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980933AEBFB68262FC5D0C757539CEE4;
+			remoteInfo = Former;
+		};
+		A45B4775775C42F449944A9BDE06A931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB42C887C0F412A7FE0DD4DD6A14E87F;
+			remoteInfo = SwiftOverlays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000360B455FBFBD90DF13B186C90E188 /* FormInlinePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlinePickerCell.swift; path = Former/Cells/FormInlinePickerCell.swift; sourceTree = "<group>"; };
+		021129DA22316E62DA33CEF44D56E2DD /* ANLongTapButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANLongTapButton.swift; path = Pod/Classes/ANLongTapButton.swift; sourceTree = "<group>"; };
+		022752D3258805C63826D8F5B9F9194C /* SwiftHEXColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-prefix.pch"; sourceTree = "<group>"; };
+		0462D412B61FBACF2E6DB2DB098CE369 /* InlineDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineDatePickerRowFormer.swift; path = Former/RowFormers/InlineDatePickerRowFormer.swift; sourceTree = "<group>"; };
+		0952E8F4278C178DD589713BF65EB981 /* SwiftHEXColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHEXColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A66EC0BF71B5E4AB87E48689B24BE85 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		0B5DE2F28FE7F672E7EEA29B46100691 /* NSTimer+Closure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTimer+Closure.swift"; path = "Pod/Classes/NSTimer+Closure.swift"; sourceTree = "<group>"; };
+		0DDA9ED826018D18B42A8A574A7C97C0 /* SwiftOverlays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOverlays.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED975F9F01F988BB90332F27646A8AC /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = Former/Cells/FormTextViewCell.swift; sourceTree = "<group>"; };
+		13B2635C84A986A333907BC2AF6BE78C /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		1EC7CDFDBE87B6A4170965DE97878511 /* FormSegmentedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedCell.swift; path = Former/Cells/FormSegmentedCell.swift; sourceTree = "<group>"; };
+		1FF411477345ED3AB7A213242190679B /* FormSelectorDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorDatePickerCell.swift; path = Former/Cells/FormSelectorDatePickerCell.swift; sourceTree = "<group>"; };
+		23546192862E3339CD34EAB476DB2007 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		250F9F64E503A4CDAD80593477E2E6C5 /* Former.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Former.xcconfig; sourceTree = "<group>"; };
+		2730E370A37A20BC6CCF17D7EE9BB7EF /* ANLongTapButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANLongTapButton.xcconfig; sourceTree = "<group>"; };
+		27D8BC95722E72BDF5BD28D2267DAC7B /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		2A96CC9344504B404537215A55EF2A81 /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = Former/Controllers/FormViewController.swift; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2E43C99C603BC06A65E3D43EFA30760D /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = Former/Cells/FormSwitchCell.swift; sourceTree = "<group>"; };
+		2E5C290BB7634867EFA0A9E2B5CC5B1B /* BaseViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewFormer.swift; path = Former/ViewFormers/BaseViewFormer.swift; sourceTree = "<group>"; };
+		33EF0B5241809C5CACD8FF1D5E5CFE12 /* SwiftOverlays.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftOverlays.modulemap; sourceTree = "<group>"; };
+		35308683A883CDA0EDF299231D6A011F /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		361F19142714C6B689074A6071CC9BE7 /* ANLongTapButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANLongTapButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE13B77BAF5AEA9803A271AB7C8E6F7 /* Former-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-umbrella.h"; sourceTree = "<group>"; };
+		3D059E56B0CF0EE34821D1883D0C3D9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E36259F91067B9417936B801F5C8AD5 /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = Former/Cells/FormPickerCell.swift; sourceTree = "<group>"; };
+		3ED8BE4B652F0D713AD3D163F65835E8 /* UITableViewCell+Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Former.swift"; path = "Former/Helpers/UITableViewCell+Former.swift"; sourceTree = "<group>"; };
+		402A3EBDA815295EDAF74D06FA1CA44F /* Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Former.swift; path = Former/Commons/Former.swift; sourceTree = "<group>"; };
+		414E8714BDB7F9B2796D8FD8A520C913 /* SwiftOverlays-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOverlays-prefix.pch"; sourceTree = "<group>"; };
+		41589676CE900695CF8CAADD12714AB3 /* CheckRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRowFormer.swift; path = Former/RowFormers/CheckRowFormer.swift; sourceTree = "<group>"; };
+		4279524FEED6F636DE50F19A50766DAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427CB2862F7EDF33CED0D7C9D7595911 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C6EB3C165E61ABB3E72D1990A8E60 /* ANLongTapButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANLongTapButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		49817B94185F24E18FE40B8B7E80CE21 /* CustomViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomViewFormer.swift; path = Former/ViewFormers/CustomViewFormer.swift; sourceTree = "<group>"; };
+		498B98E6C660982002C4109D885E523E /* FormDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDatePickerCell.swift; path = Former/Cells/FormDatePickerCell.swift; sourceTree = "<group>"; };
+		4E015673B5F61140D143E1E0C0D10870 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		521A7A3F33C468007DE517EC57603E8C /* ViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewFormer.swift; path = Former/Commons/ViewFormer.swift; sourceTree = "<group>"; };
+		52C8F3A5A6C4EE3F21799421378390B7 /* SwiftHEXColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftHEXColors.xcconfig; sourceTree = "<group>"; };
+		549DF31858200A89376D669DFB0189F7 /* Former-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Former-dummy.m"; sourceTree = "<group>"; };
+		55BF29EBABB65B26DDF7412C274F0881 /* FormLabelCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelCell.swift; path = Former/Cells/FormLabelCell.swift; sourceTree = "<group>"; };
+		5795E97FD210DFB355C6F376F6317402 /* ANLongTapButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANLongTapButton-prefix.pch"; sourceTree = "<group>"; };
+		58B8AB2189856EFBBBA7262A349D8A0F /* FormSelectorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorPickerCell.swift; path = Former/Cells/FormSelectorPickerCell.swift; sourceTree = "<group>"; };
+		5A5B0DC539FDE7410B0D7C4203E18FC3 /* TextFieldRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldRowFormer.swift; path = Former/RowFormers/TextFieldRowFormer.swift; sourceTree = "<group>"; };
+		5FBA62D3E3D0B6E78C782A17B10FD458 /* SwiftOverlays.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftOverlays.xcconfig; sourceTree = "<group>"; };
+		6166C9BC363367FD411E417713C88190 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Sources/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		66CF2D076DFEF122E48955475D5F29A1 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		67324A7C1D9CF7DA240B84E4CE76CA94 /* StepperRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRowFormer.swift; path = Former/RowFormers/StepperRowFormer.swift; sourceTree = "<group>"; };
+		683324FB8E7AE9D71E71DBE37E7A38BA /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = Former/Cells/FormStepperCell.swift; sourceTree = "<group>"; };
+		686B334DF529833A7887B6BE74477EB8 /* Former.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Former.modulemap; sourceTree = "<group>"; };
+		6D05CC49D7331DE3877EE855031A8DCB /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		776EDAD8B8875F0AA7E203A7442FC6FA /* ANLongTapButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ANLongTapButton.modulemap; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7BB2996087C5155C9DFE4DD2A887F568 /* FormLabelFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelFooterView.swift; path = Former/Views/FormLabelFooterView.swift; sourceTree = "<group>"; };
+		7FFFBA903C2DB6994415169910D6D611 /* FormLabelHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelHeaderView.swift; path = Former/Views/FormLabelHeaderView.swift; sourceTree = "<group>"; };
+		802594DEF6FDC30E26081980CDE8C35C /* SliderRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRowFormer.swift; path = Former/RowFormers/SliderRowFormer.swift; sourceTree = "<group>"; };
+		813A11B6E6BBCD3103F736C5F8B36145 /* Former.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Former.h; path = Former/Former.h; sourceTree = "<group>"; };
+		8316DE6D3918F110C4AF4B3F08848447 /* RowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowFormer.swift; path = Former/Commons/RowFormer.swift; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		88B686917A8D49E17F9B82D02E580C4E /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8B88FB9B4C2F529DA04AD4358547A5CE /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		8BBD610333E85B26C755931C78DB702E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC9CB0F6360BD3B7C5A02887DE1F4ED /* SelectorPickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorPickerRowFormer.swift; path = Former/RowFormers/SelectorPickerRowFormer.swift; sourceTree = "<group>"; };
+		9459762684C43CBCF6ECD8E33CAB7F47 /* SwiftHEXColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftHEXColors.modulemap; sourceTree = "<group>"; };
+		96FA6727DBC59DBB359349C9C3DFA6C6 /* SwiftHEXColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftHEXColors-umbrella.h"; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9AC637F5CE78CCE56CD5B0977B70A12C /* LabelRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRowFormer.swift; path = Former/RowFormers/LabelRowFormer.swift; sourceTree = "<group>"; };
+		9F5B5E008FA343D02F947A4718FD1B24 /* PickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRowFormer.swift; path = Former/RowFormers/PickerRowFormer.swift; sourceTree = "<group>"; };
+		A209EC639A7972172D517559B84A53F9 /* SwiftHEXColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftHEXColors-dummy.m"; sourceTree = "<group>"; };
+		A5CDA1B03BF67B9432F55C0FE53CE32C /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		AA6E6F3338125AA168D5AE4B2531FAFB /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = Former/Cells/FormCheckCell.swift; sourceTree = "<group>"; };
+		ADA8EE0DEF2D3E86A1B425FBA70B6CD3 /* Former.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Former.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9554177E56CBCD3727C39F39E5869E /* FormerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormerProtocol.swift; path = Former/Commons/FormerProtocol.swift; sourceTree = "<group>"; };
+		AFE2EF47DBD039AB2576E2E85436A85D /* Former-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-prefix.pch"; sourceTree = "<group>"; };
+		B27CA233FD175A5E330150D291B9E297 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		B9413240A9D6E09B20E45808EF4A8B97 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDF92251FB5C04A2BFE40BCFE7B0AABD /* FormCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCell.swift; path = Former/Cells/FormCell.swift; sourceTree = "<group>"; };
+		BE817206D7BE2C39C79AE4D90B5E04A0 /* SwiftOverlays-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOverlays-umbrella.h"; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C8B0333402801EB6B51AE1CDE0119A10 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		CA6B1E92368A63D5ECAFA47194A04285 /* SwiftOverlays-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftOverlays-dummy.m"; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CC264E32C45BEAE473FBF98948161655 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB9413E27492457011146449C2A583D /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = Former/Cells/FormSliderCell.swift; sourceTree = "<group>"; };
+		CDEF609DD6A96DEF281DBEE5D60E86D0 /* SelectorDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorDatePickerRowFormer.swift; path = Former/RowFormers/SelectorDatePickerRowFormer.swift; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0620898A89A86BDC1779C45D8ACDEEE /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		D276F9C26509C53405BEB2C1F8ED024C /* SectionFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionFormer.swift; path = Former/Commons/SectionFormer.swift; sourceTree = "<group>"; };
+		D579334598BBB3015177B99965812B97 /* SwitchRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRowFormer.swift; path = Former/RowFormers/SwitchRowFormer.swift; sourceTree = "<group>"; };
+		D9828AE158E24F04DD81708545AAA221 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E0446651C749857AE2A1C7B8943BBD32 /* FormHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormHeaderFooterView.swift; path = Former/Views/FormHeaderFooterView.swift; sourceTree = "<group>"; };
+		E2691EA1D0802E0C79126EEE64FFFBDE /* InlinePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlinePickerRowFormer.swift; path = Former/RowFormers/InlinePickerRowFormer.swift; sourceTree = "<group>"; };
+		E2FF8F245912331F3609DBA8A3B41555 /* SwiftHEXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftHEXColors.h; path = Sources/SwiftHEXColors.h; sourceTree = "<group>"; };
+		E4A6372A4ED21DBC83938E3506897520 /* BaseRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRowFormer.swift; path = Former/RowFormers/BaseRowFormer.swift; sourceTree = "<group>"; };
+		E7643FCD7668E0EF951DAC28C2D2F4D6 /* ANLongTapButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANLongTapButton-dummy.m"; sourceTree = "<group>"; };
+		E7B97297705B0CE6EB40EC7EA68EBE1F /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E835D01499D92E4E9C9F4C3791EF0B3B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB31625AA3CDD0C90E6F2D82B2793D40 /* FormInlineDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlineDatePickerCell.swift; path = Former/Cells/FormInlineDatePickerCell.swift; sourceTree = "<group>"; };
+		F05FAA5DE5EC593E9CEEA50498007E67 /* DatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRowFormer.swift; path = Former/RowFormers/DatePickerRowFormer.swift; sourceTree = "<group>"; };
+		F21A9270C1534E6ECFC256555C749910 /* SwiftOverlays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftOverlays.swift; path = SwiftOverlays/SwiftOverlays.swift; sourceTree = "<group>"; };
+		F235984C8EC882F4C9C68AB718836CB8 /* CustomRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRowFormer.swift; path = Former/RowFormers/CustomRowFormer.swift; sourceTree = "<group>"; };
+		F613E7B31BE1D1D783BC9531BC31597E /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		F7B990AE264A5BFE672879E19AB54865 /* TextViewRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewRowFormer.swift; path = Former/RowFormers/TextViewRowFormer.swift; sourceTree = "<group>"; };
+		FAF1D723B088658B62880B17498C64B3 /* ANLongTapButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANLongTapButton-umbrella.h"; sourceTree = "<group>"; };
+		FC796A6225176C3FD5C57A2AF979CFB6 /* LabelViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelViewFormer.swift; path = Former/ViewFormers/LabelViewFormer.swift; sourceTree = "<group>"; };
+		FD036998FBA518E47A654101FF267038 /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = Former/Cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
+		FFCEB5238A223CF85F411B4D7E5ED54E /* SegmentedRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRowFormer.swift; path = Former/RowFormers/SegmentedRowFormer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47B0B8EE22E34F26B8761C2BFA00A7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CDC8A598926775FCFEAD1EA7962BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508E50D103ACE5CAF56B51ED3E5D7606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7F6BCDA50CF7E87E1ADD5A9FC20418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519982371881FD7F47A2EA3CB8BF490D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C1A2CE26D606BEFACC2440373198A8 /* Foundation.framework in Frameworks */,
+				A4B212D39E3C202BD40F51AF97F41D5F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFF54FCD7A09F7D8D2BC72D12AEC3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D58749BE8B4020E71825DC918F383F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C1888FEE14B9C4F48CC258DC74B816 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3154322EA8AE7A18ED00FA5812AF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151856412AD59E4EA850C5BCE32D3915 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9208B1045F884263FCD26E82A792749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C9FFF73181F37FDCD4BAF375411494 /* Foundation.framework in Frameworks */,
+				F55D7283521DFBE52FD0B285B7AC931C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		434333DA3C23680963EEB8CA9A3D3D98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D059E56B0CF0EE34821D1883D0C3D9D /* Info.plist */,
+				33EF0B5241809C5CACD8FF1D5E5CFE12 /* SwiftOverlays.modulemap */,
+				5FBA62D3E3D0B6E78C782A17B10FD458 /* SwiftOverlays.xcconfig */,
+				CA6B1E92368A63D5ECAFA47194A04285 /* SwiftOverlays-dummy.m */,
+				414E8714BDB7F9B2796D8FD8A520C913 /* SwiftOverlays-prefix.pch */,
+				BE817206D7BE2C39C79AE4D90B5E04A0 /* SwiftOverlays-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftOverlays";
+			sourceTree = "<group>";
+		};
+		45B3258222AED62A5574A99F8C6F992B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BBD610333E85B26C755931C78DB702E /* Info.plist */,
+				9459762684C43CBCF6ECD8E33CAB7F47 /* SwiftHEXColors.modulemap */,
+				52C8F3A5A6C4EE3F21799421378390B7 /* SwiftHEXColors.xcconfig */,
+				A209EC639A7972172D517559B84A53F9 /* SwiftHEXColors-dummy.m */,
+				022752D3258805C63826D8F5B9F9194C /* SwiftHEXColors-prefix.pch */,
+				96FA6727DBC59DBB359349C9C3DFA6C6 /* SwiftHEXColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftHEXColors";
+			sourceTree = "<group>";
+		};
+		6701CBD566BBA8E9753ECD57D2D8B081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494C6EB3C165E61ABB3E72D1990A8E60 /* ANLongTapButton.bundle */,
+				361F19142714C6B689074A6071CC9BE7 /* ANLongTapButton.framework */,
+				ADA8EE0DEF2D3E86A1B425FBA70B6CD3 /* Former.framework */,
+				427CB2862F7EDF33CED0D7C9D7595911 /* Pods.framework */,
+				E835D01499D92E4E9C9F4C3791EF0B3B /* SnapKit.framework */,
+				0952E8F4278C178DD589713BF65EB981 /* SwiftHEXColors.framework */,
+				0DDA9ED826018D18B42A8A574A7C97C0 /* SwiftOverlays.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		671BCE3E46BD4271C1DD11F544CD83CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				776EDAD8B8875F0AA7E203A7442FC6FA /* ANLongTapButton.modulemap */,
+				2730E370A37A20BC6CCF17D7EE9BB7EF /* ANLongTapButton.xcconfig */,
+				E7643FCD7668E0EF951DAC28C2D2F4D6 /* ANLongTapButton-dummy.m */,
+				5795E97FD210DFB355C6F376F6317402 /* ANLongTapButton-prefix.pch */,
+				FAF1D723B088658B62880B17498C64B3 /* ANLongTapButton-umbrella.h */,
+				23546192862E3339CD34EAB476DB2007 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ANLongTapButton";
+			sourceTree = "<group>";
+		};
+		6ECD690BBCB636EC6BCE20868E7DA7A5 /* Former */ = {
+			isa = PBXGroup;
+			children = (
+				E4A6372A4ED21DBC83938E3506897520 /* BaseRowFormer.swift */,
+				2E5C290BB7634867EFA0A9E2B5CC5B1B /* BaseViewFormer.swift */,
+				41589676CE900695CF8CAADD12714AB3 /* CheckRowFormer.swift */,
+				F235984C8EC882F4C9C68AB718836CB8 /* CustomRowFormer.swift */,
+				49817B94185F24E18FE40B8B7E80CE21 /* CustomViewFormer.swift */,
+				F05FAA5DE5EC593E9CEEA50498007E67 /* DatePickerRowFormer.swift */,
+				BDF92251FB5C04A2BFE40BCFE7B0AABD /* FormCell.swift */,
+				AA6E6F3338125AA168D5AE4B2531FAFB /* FormCheckCell.swift */,
+				498B98E6C660982002C4109D885E523E /* FormDatePickerCell.swift */,
+				813A11B6E6BBCD3103F736C5F8B36145 /* Former.h */,
+				402A3EBDA815295EDAF74D06FA1CA44F /* Former.swift */,
+				AF9554177E56CBCD3727C39F39E5869E /* FormerProtocol.swift */,
+				E0446651C749857AE2A1C7B8943BBD32 /* FormHeaderFooterView.swift */,
+				EB31625AA3CDD0C90E6F2D82B2793D40 /* FormInlineDatePickerCell.swift */,
+				000360B455FBFBD90DF13B186C90E188 /* FormInlinePickerCell.swift */,
+				55BF29EBABB65B26DDF7412C274F0881 /* FormLabelCell.swift */,
+				7BB2996087C5155C9DFE4DD2A887F568 /* FormLabelFooterView.swift */,
+				7FFFBA903C2DB6994415169910D6D611 /* FormLabelHeaderView.swift */,
+				3E36259F91067B9417936B801F5C8AD5 /* FormPickerCell.swift */,
+				1EC7CDFDBE87B6A4170965DE97878511 /* FormSegmentedCell.swift */,
+				1FF411477345ED3AB7A213242190679B /* FormSelectorDatePickerCell.swift */,
+				58B8AB2189856EFBBBA7262A349D8A0F /* FormSelectorPickerCell.swift */,
+				CDB9413E27492457011146449C2A583D /* FormSliderCell.swift */,
+				683324FB8E7AE9D71E71DBE37E7A38BA /* FormStepperCell.swift */,
+				2E43C99C603BC06A65E3D43EFA30760D /* FormSwitchCell.swift */,
+				FD036998FBA518E47A654101FF267038 /* FormTextFieldCell.swift */,
+				0ED975F9F01F988BB90332F27646A8AC /* FormTextViewCell.swift */,
+				2A96CC9344504B404537215A55EF2A81 /* FormViewController.swift */,
+				0462D412B61FBACF2E6DB2DB098CE369 /* InlineDatePickerRowFormer.swift */,
+				E2691EA1D0802E0C79126EEE64FFFBDE /* InlinePickerRowFormer.swift */,
+				9AC637F5CE78CCE56CD5B0977B70A12C /* LabelRowFormer.swift */,
+				FC796A6225176C3FD5C57A2AF979CFB6 /* LabelViewFormer.swift */,
+				9F5B5E008FA343D02F947A4718FD1B24 /* PickerRowFormer.swift */,
+				8316DE6D3918F110C4AF4B3F08848447 /* RowFormer.swift */,
+				D276F9C26509C53405BEB2C1F8ED024C /* SectionFormer.swift */,
+				FFCEB5238A223CF85F411B4D7E5ED54E /* SegmentedRowFormer.swift */,
+				CDEF609DD6A96DEF281DBEE5D60E86D0 /* SelectorDatePickerRowFormer.swift */,
+				8BC9CB0F6360BD3B7C5A02887DE1F4ED /* SelectorPickerRowFormer.swift */,
+				802594DEF6FDC30E26081980CDE8C35C /* SliderRowFormer.swift */,
+				67324A7C1D9CF7DA240B84E4CE76CA94 /* StepperRowFormer.swift */,
+				D579334598BBB3015177B99965812B97 /* SwitchRowFormer.swift */,
+				5A5B0DC539FDE7410B0D7C4203E18FC3 /* TextFieldRowFormer.swift */,
+				F7B990AE264A5BFE672879E19AB54865 /* TextViewRowFormer.swift */,
+				3ED8BE4B652F0D713AD3D163F65835E8 /* UITableViewCell+Former.swift */,
+				521A7A3F33C468007DE517EC57603E8C /* ViewFormer.swift */,
+				CAD3194C6DA80E6BBDCAEA0F5E515A84 /* Support Files */,
+			);
+			path = Former;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7886316AEA3BE6CE2ED285187BD92FC8 /* ANLongTapButton */ = {
+			isa = PBXGroup;
+			children = (
+				021129DA22316E62DA33CEF44D56E2DD /* ANLongTapButton.swift */,
+				0B5DE2F28FE7F672E7EEA29B46100691 /* NSTimer+Closure.swift */,
+				671BCE3E46BD4271C1DD11F544CD83CA /* Support Files */,
+			);
+			path = ANLongTapButton;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9C002AB85C1FBE4EA58F28661F341A4B /* Pods */,
+				6701CBD566BBA8E9753ECD57D2D8B081 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C002AB85C1FBE4EA58F28661F341A4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7886316AEA3BE6CE2ED285187BD92FC8 /* ANLongTapButton */,
+				6ECD690BBCB636EC6BCE20868E7DA7A5 /* Former */,
+				E82488FDA503C0B09650227B175706FA /* SnapKit */,
+				E5AE009EED0B37AB4B8281B6782622CD /* SwiftHEXColors */,
+				A8B71482B3D277324DC711DBD8BC7C02 /* SwiftOverlays */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8B71482B3D277324DC711DBD8BC7C02 /* SwiftOverlays */ = {
+			isa = PBXGroup;
+			children = (
+				F21A9270C1534E6ECFC256555C749910 /* SwiftOverlays.swift */,
+				434333DA3C23680963EEB8CA9A3D3D98 /* Support Files */,
+			);
+			path = SwiftOverlays;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C11552DB1C2FF26A12C9E0D1EFB77BAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC264E32C45BEAE473FBF98948161655 /* Info.plist */,
+				13B2635C84A986A333907BC2AF6BE78C /* SnapKit.modulemap */,
+				C8B0333402801EB6B51AE1CDE0119A10 /* SnapKit.xcconfig */,
+				B27CA233FD175A5E330150D291B9E297 /* SnapKit-dummy.m */,
+				35308683A883CDA0EDF299231D6A011F /* SnapKit-prefix.pch */,
+				D9828AE158E24F04DD81708545AAA221 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		CAD3194C6DA80E6BBDCAEA0F5E515A84 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				686B334DF529833A7887B6BE74477EB8 /* Former.modulemap */,
+				250F9F64E503A4CDAD80593477E2E6C5 /* Former.xcconfig */,
+				549DF31858200A89376D669DFB0189F7 /* Former-dummy.m */,
+				AFE2EF47DBD039AB2576E2E85436A85D /* Former-prefix.pch */,
+				3BE13B77BAF5AEA9803A271AB7C8E6F7 /* Former-umbrella.h */,
+				4279524FEED6F636DE50F19A50766DAC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Former";
+			sourceTree = "<group>";
+		};
+		E5AE009EED0B37AB4B8281B6782622CD /* SwiftHEXColors */ = {
+			isa = PBXGroup;
+			children = (
+				E2FF8F245912331F3609DBA8A3B41555 /* SwiftHEXColors.h */,
+				6166C9BC363367FD411E417713C88190 /* SwiftHEXColors.swift */,
+				45B3258222AED62A5574A99F8C6F992B /* Support Files */,
+			);
+			path = SwiftHEXColors;
+			sourceTree = "<group>";
+		};
+		E82488FDA503C0B09650227B175706FA /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				E7B97297705B0CE6EB40EC7EA68EBE1F /* Constraint.swift */,
+				F613E7B31BE1D1D783BC9531BC31597E /* ConstraintAttributes.swift */,
+				0A66EC0BF71B5E4AB87E48689B24BE85 /* ConstraintDescription.swift */,
+				D0620898A89A86BDC1779C45D8ACDEEE /* ConstraintItem.swift */,
+				B9413240A9D6E09B20E45808EF4A8B97 /* ConstraintMaker.swift */,
+				66CF2D076DFEF122E48955475D5F29A1 /* ConstraintRelation.swift */,
+				4E015673B5F61140D143E1E0C0D10870 /* Debugging.swift */,
+				88B686917A8D49E17F9B82D02E580C4E /* EdgeInsets.swift */,
+				27D8BC95722E72BDF5BD28D2267DAC7B /* LayoutConstraint.swift */,
+				8B88FB9B4C2F529DA04AD4358547A5CE /* SnapKit.swift */,
+				6D05CC49D7331DE3877EE855031A8DCB /* View+SnapKit.swift */,
+				A5CDA1B03BF67B9432F55C0FE53CE32C /* ViewController+SnapKit.swift */,
+				C11552DB1C2FF26A12C9E0D1EFB77BAB /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04A647BB068C26DCFE6A14BFEC225740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CBA2BB82ACDF22477606D930C64681 /* SwiftHEXColors-umbrella.h in Headers */,
+				FBDBCC6B86379309EFCEBB8DA1B35071 /* SwiftHEXColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B07459CE22667FD94E040C6E99F9EA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663657CC421AA99FE7AB32D17B511EF8 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A50D8849E8404449EE657022F17A75E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C148448FAE44171517C343009426A231 /* ANLongTapButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCE45378C16FAE9E8669609733BA7BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA51F0E351B2CE107644CE144576A539 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E512F916A91727DD34931F6867DEAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4405574535E51507DD38C7D303F0A74C /* SwiftOverlays-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88D9223A54B77C4CB5702ECFD806F33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59F9BD4BA223BC2F212BFF2E394E6B7 /* Former-umbrella.h in Headers */,
+				2827F0609108B69322A9981B5E1E4116 /* Former.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		334FCA0F032ED496227C4A12AFA2117F /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58CF4EBE1972DA3711FC03517573DF09 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				35B3A29A3E259E532D9429619A0D89B7 /* Sources */,
+				CA3154322EA8AE7A18ED00FA5812AF8C /* Frameworks */,
+				1B07459CE22667FD94E040C6E99F9EA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = E835D01499D92E4E9C9F4C3791EF0B3B /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6AA451F136C2D11E82FE290A3E9AF77B /* ANLongTapButton-ANLongTapButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB7BDEF7CC6E89AF8F60F739A82D9D5 /* Build configuration list for PBXNativeTarget "ANLongTapButton-ANLongTapButton" */;
+			buildPhases = (
+				057CA00A7C68307EC8683A607606AD91 /* Sources */,
+				BBFF54FCD7A09F7D8D2BC72D12AEC3D1 /* Frameworks */,
+				1887CD19248F4E5F00ECEDD34CBC8767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ANLongTapButton-ANLongTapButton";
+			productName = "ANLongTapButton-ANLongTapButton";
+			productReference = 494C6EB3C165E61ABB3E72D1990A8E60 /* ANLongTapButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		980933AEBFB68262FC5D0C757539CEE4 /* Former */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30C336D5124961EDED1B7202DE8A490 /* Build configuration list for PBXNativeTarget "Former" */;
+			buildPhases = (
+				955164A2499B14122FF983D999DB2A83 /* Sources */,
+				519982371881FD7F47A2EA3CB8BF490D /* Frameworks */,
+				F88D9223A54B77C4CB5702ECFD806F33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Former;
+			productName = Former;
+			productReference = ADA8EE0DEF2D3E86A1B425FBA70B6CD3 /* Former.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DC63485EA2222C1809ECA3E9A906C54 /* SwiftHEXColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A5D8EF7AA3D2EAC1200D5ED745814F /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */;
+			buildPhases = (
+				A750C078CB05846705D1806773F0F8B4 /* Sources */,
+				C3D58749BE8B4020E71825DC918F383F /* Frameworks */,
+				04A647BB068C26DCFE6A14BFEC225740 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftHEXColors;
+			productName = SwiftHEXColors;
+			productReference = 0952E8F4278C178DD589713BF65EB981 /* SwiftHEXColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4E253EC29A54D3C92F6DD0E1D343A8D /* ANLongTapButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0976BA22BF8993DA742F5DB58187ABA8 /* Build configuration list for PBXNativeTarget "ANLongTapButton" */;
+			buildPhases = (
+				1A06732F4D462615535D130F809BB315 /* Sources */,
+				E9208B1045F884263FCD26E82A792749 /* Frameworks */,
+				10031CDA4D9163E4A3953AF550D389FA /* Resources */,
+				3A50D8849E8404449EE657022F17A75E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F55D95E8DCB780C0C8E7674CF172296 /* PBXTargetDependency */,
+			);
+			name = ANLongTapButton;
+			productName = ANLongTapButton;
+			productReference = 361F19142714C6B689074A6071CC9BE7 /* ANLongTapButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB42C887C0F412A7FE0DD4DD6A14E87F /* SwiftOverlays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F96B7E13D088F9B0140E462CD5524CC /* Build configuration list for PBXNativeTarget "SwiftOverlays" */;
+			buildPhases = (
+				3A3A4017B291912BF63EE4F98ADF2BDF /* Sources */,
+				508E50D103ACE5CAF56B51ED3E5D7606 /* Frameworks */,
+				D7E512F916A91727DD34931F6867DEAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftOverlays;
+			productName = SwiftOverlays;
+			productReference = 0DDA9ED826018D18B42A8A574A7C97C0 /* SwiftOverlays.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2373BA2DA87C507BBC3104C1C99BE1F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B548A6831370042D73B10CD5E2458781 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				A6CEA340380774D6B02088BCC9C0212D /* Sources */,
+				47B0B8EE22E34F26B8761C2BFA00A7FD /* Frameworks */,
+				BBCE45378C16FAE9E8669609733BA7BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE55EE43FC865D1B6FA728B410A84178 /* PBXTargetDependency */,
+				5B12D8C29BB2D9B61C4119F506366F04 /* PBXTargetDependency */,
+				CED29CC8A65569946850818A989F8244 /* PBXTargetDependency */,
+				B0B3BFB3CE2BDDE124042E48EB5EDBBA /* PBXTargetDependency */,
+				1A6AC891CC5E1B85EE1DEC4BC4A4F356 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 427CB2862F7EDF33CED0D7C9D7595911 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6701CBD566BBA8E9753ECD57D2D8B081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4E253EC29A54D3C92F6DD0E1D343A8D /* ANLongTapButton */,
+				6AA451F136C2D11E82FE290A3E9AF77B /* ANLongTapButton-ANLongTapButton */,
+				980933AEBFB68262FC5D0C757539CEE4 /* Former */,
+				C2373BA2DA87C507BBC3104C1C99BE1F /* Pods */,
+				334FCA0F032ED496227C4A12AFA2117F /* SnapKit */,
+				9DC63485EA2222C1809ECA3E9A906C54 /* SwiftHEXColors */,
+				BB42C887C0F412A7FE0DD4DD6A14E87F /* SwiftOverlays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10031CDA4D9163E4A3953AF550D389FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E750C6271F8374C9D898F626F8F797A /* ANLongTapButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1887CD19248F4E5F00ECEDD34CBC8767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		057CA00A7C68307EC8683A607606AD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A06732F4D462615535D130F809BB315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D924ACA5AC80A79A574143591929F91 /* ANLongTapButton-dummy.m in Sources */,
+				8A4FA52223B82372970C95715A9219AD /* ANLongTapButton.swift in Sources */,
+				BBED4233836754F5F7A0314E4E01CAD3 /* NSTimer+Closure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3A29A3E259E532D9429619A0D89B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B2D417CC688931C6DCFBDE82B9FEBC /* Constraint.swift in Sources */,
+				BD0B5950709DD24A8EB38AED85B95FD7 /* ConstraintAttributes.swift in Sources */,
+				B3839F15D9DA5FAB65EC3277843835E0 /* ConstraintDescription.swift in Sources */,
+				48729A06DD05BF0F4486ABEAD0EE2C94 /* ConstraintItem.swift in Sources */,
+				79ED8F221D3E1BB337A36A5BB4088528 /* ConstraintMaker.swift in Sources */,
+				B5F3C5627BB59C4036B614038618AFA3 /* ConstraintRelation.swift in Sources */,
+				4D62FC76684AE8C655F5D548BCC4EDC7 /* Debugging.swift in Sources */,
+				5EB7ED72EA54BED6E66D3C32AA2BCA5F /* EdgeInsets.swift in Sources */,
+				2F2678E16E05AC02FCCA5F67843047C3 /* LayoutConstraint.swift in Sources */,
+				8CC39249EAD1667485C6BF341A94E8C6 /* SnapKit-dummy.m in Sources */,
+				49C8A38E498AC0633C6B5A59984E5D5E /* SnapKit.swift in Sources */,
+				5B474C5591981C0F025F44A6B42CC557 /* View+SnapKit.swift in Sources */,
+				28A95C232CDF947263020D384808AD32 /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3A4017B291912BF63EE4F98ADF2BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3474087A3B444BBFA747C44D4FE4620D /* SwiftOverlays-dummy.m in Sources */,
+				D7DD26C3A5644BB4B0ACE25FFCB0EB6E /* SwiftOverlays.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955164A2499B14122FF983D999DB2A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D81C785F26A24C43C1B0A6B7182248 /* BaseRowFormer.swift in Sources */,
+				5DA8F0E77126E515FFC036C41207A2BF /* BaseViewFormer.swift in Sources */,
+				5427D5D1E3D2159A06A86275920518EA /* CheckRowFormer.swift in Sources */,
+				043AE90438947CFDBB906E145A417B7C /* CustomRowFormer.swift in Sources */,
+				D0F6C7C9787B86A475CF8716587DBFF8 /* CustomViewFormer.swift in Sources */,
+				633ADB525829CACC2F8E33D6CC7AB4F0 /* DatePickerRowFormer.swift in Sources */,
+				174CC2269909901D491DF64ACCA8C37E /* FormCell.swift in Sources */,
+				67D88B09B3CBD2FBDFD595D4225AC714 /* FormCheckCell.swift in Sources */,
+				4D9B38B065F35F633FA49D606F8150BD /* FormDatePickerCell.swift in Sources */,
+				D57517AD8044C5DDC55111C953B5D067 /* Former-dummy.m in Sources */,
+				F6DA4337DD6F668DD718901B0CD7B4B5 /* Former.swift in Sources */,
+				40A72ADEA22A07A31673387DDEFF9139 /* FormerProtocol.swift in Sources */,
+				D3902B9865245AFED32C755615EAC7BD /* FormHeaderFooterView.swift in Sources */,
+				EF579B14B5DC267DDF0DC7A8B282C6C8 /* FormInlineDatePickerCell.swift in Sources */,
+				452A4FB41B239ADA1F50D077E6D52C2A /* FormInlinePickerCell.swift in Sources */,
+				E1E2180D8113197E0CC97872828ED5C2 /* FormLabelCell.swift in Sources */,
+				E40926B2B81858537B4508290684EE2D /* FormLabelFooterView.swift in Sources */,
+				0248D844F00EA447E0BCF48D8615C0A2 /* FormLabelHeaderView.swift in Sources */,
+				57DB472403F3FEF372E7A6FBF66DB87E /* FormPickerCell.swift in Sources */,
+				9DBBAF2EBCB60BF32F511A03663977F3 /* FormSegmentedCell.swift in Sources */,
+				DA7F46A9F86244A13054F6D20736D72B /* FormSelectorDatePickerCell.swift in Sources */,
+				7D13532E5F5277FB1762987D993E906B /* FormSelectorPickerCell.swift in Sources */,
+				D6619C39550F7B88EF059D4A22FFAFFD /* FormSliderCell.swift in Sources */,
+				099788C8A0F4AC704C6D6B1DDD832AF0 /* FormStepperCell.swift in Sources */,
+				3280A95CB7FF1A2501113F3F521CA237 /* FormSwitchCell.swift in Sources */,
+				E26151CDF788721AD0E244372389F9EB /* FormTextFieldCell.swift in Sources */,
+				12937A4F554E9DEF35546F7E53092A89 /* FormTextViewCell.swift in Sources */,
+				CC72BC2A27E3D5E7558EF0E29DE9608F /* FormViewController.swift in Sources */,
+				7873BF12564A7CA735F2D8D90C22E8FB /* InlineDatePickerRowFormer.swift in Sources */,
+				3DC0A86E4D89A401477364CF8CD73A98 /* InlinePickerRowFormer.swift in Sources */,
+				93FA9E8C73608A58147E1B2F0E3D687A /* LabelRowFormer.swift in Sources */,
+				6C7C70448AAF11557E75C2197D0083D3 /* LabelViewFormer.swift in Sources */,
+				A8975C1982FCA38DCB3C1D6336AFE816 /* PickerRowFormer.swift in Sources */,
+				BECB0F4B442F029B68105B0B3FE5A27C /* RowFormer.swift in Sources */,
+				4E099D4A0452BCA807FC249DFF719922 /* SectionFormer.swift in Sources */,
+				6C3EC5853048EFD36D2805895A8E057A /* SegmentedRowFormer.swift in Sources */,
+				002CC2BFE1BF0D6883EAA72B55EBDA72 /* SelectorDatePickerRowFormer.swift in Sources */,
+				9AA04C3C57F10B96862C52A47D583260 /* SelectorPickerRowFormer.swift in Sources */,
+				FDDBC6340052A560147B4FB27ED18986 /* SliderRowFormer.swift in Sources */,
+				2E556C5FBB781A9708783A30B2124797 /* StepperRowFormer.swift in Sources */,
+				5BDEB1941727713E10C17996AD91D910 /* SwitchRowFormer.swift in Sources */,
+				D6F04886703F9DC06929845DBD9947EB /* TextFieldRowFormer.swift in Sources */,
+				FF54875678972D8C401702E7882D15E9 /* TextViewRowFormer.swift in Sources */,
+				AADB13169A72A64F2DAF2484558A17EA /* UITableViewCell+Former.swift in Sources */,
+				3721E91E880030C73BBAE614B479E4EB /* ViewFormer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CEA340380774D6B02088BCC9C0212D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DD8106EF221B5F58E9D4C88EF0D4E5 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A750C078CB05846705D1806773F0F8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951E0A3A0C7CB95A2F0C35D0CDC2ED7B /* SwiftHEXColors-dummy.m in Sources */,
+				9CC221D0E76D27687505F685ED5F961E /* SwiftHEXColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6AC891CC5E1B85EE1DEC4BC4A4F356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftOverlays;
+			target = BB42C887C0F412A7FE0DD4DD6A14E87F /* SwiftOverlays */;
+			targetProxy = A45B4775775C42F449944A9BDE06A931 /* PBXContainerItemProxy */;
+		};
+		3F55D95E8DCB780C0C8E7674CF172296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ANLongTapButton-ANLongTapButton";
+			target = 6AA451F136C2D11E82FE290A3E9AF77B /* ANLongTapButton-ANLongTapButton */;
+			targetProxy = 2A2417AE728E72A87A9537B22FF1BDF6 /* PBXContainerItemProxy */;
+		};
+		5B12D8C29BB2D9B61C4119F506366F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Former;
+			target = 980933AEBFB68262FC5D0C757539CEE4 /* Former */;
+			targetProxy = 99196035CD25FAEDC8C920CCED013919 /* PBXContainerItemProxy */;
+		};
+		B0B3BFB3CE2BDDE124042E48EB5EDBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftHEXColors;
+			target = 9DC63485EA2222C1809ECA3E9A906C54 /* SwiftHEXColors */;
+			targetProxy = 24E7BB66455B598940618FE316629071 /* PBXContainerItemProxy */;
+		};
+		BE55EE43FC865D1B6FA728B410A84178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ANLongTapButton;
+			target = B4E253EC29A54D3C92F6DD0E1D343A8D /* ANLongTapButton */;
+			targetProxy = 39FD588BA7D929D017A35684AB25B79A /* PBXContainerItemProxy */;
+		};
+		CED29CC8A65569946850818A989F8244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 334FCA0F032ED496227C4A12AFA2117F /* SnapKit */;
+			targetProxy = 5E1D63E38E88C633C496E2627F80F691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48D2A84B2775D7662B3700C48FAE0460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49F61BA78E234D53FA1DCE0E2BC83583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBA62D3E3D0B6E78C782A17B10FD458 /* SwiftOverlays.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftOverlays/SwiftOverlays-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftOverlays/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftOverlays/SwiftOverlays.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftOverlays;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BB02D9A27D5D6EC5845E6BD29868595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B0333402801EB6B51AE1CDE0119A10 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76F2BAE1DB76A38FD83F1BEA2289373D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 250F9F64E503A4CDAD80593477E2E6C5 /* Former.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Former/Former-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Former/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Former/Former.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Former;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7ACDCACD58BF727C0A7B0728457C3C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBA62D3E3D0B6E78C782A17B10FD458 /* SwiftOverlays.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftOverlays/SwiftOverlays-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftOverlays/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftOverlays/SwiftOverlays.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftOverlays;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8385D85F6171BFA96343B6760B6E60C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2730E370A37A20BC6CCF17D7EE9BB7EF /* ANLongTapButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ANLongTapButton/ANLongTapButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANLongTapButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANLongTapButton/ANLongTapButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ANLongTapButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		886382E8B3CA500A610C85256D2AA116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C8F3A5A6C4EE3F21799421378390B7 /* SwiftHEXColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHEXColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftHEXColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FA02824F5A30D5BC50048842A9D18CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2730E370A37A20BC6CCF17D7EE9BB7EF /* ANLongTapButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ANLongTapButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AD990040C57DA6578DA0E9530EFA23F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C8F3A5A6C4EE3F21799421378390B7 /* SwiftHEXColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftHEXColors/SwiftHEXColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftHEXColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftHEXColors/SwiftHEXColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftHEXColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B53809ACDDB732D31EC7BA0F1D793839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8CAC1C95D415272B039FE2CC676B888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2730E370A37A20BC6CCF17D7EE9BB7EF /* ANLongTapButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ANLongTapButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6F9B155C4353DF01DE513E0DE35683D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B0333402801EB6B51AE1CDE0119A10 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8929C6CC0112B3207070626EF386ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2730E370A37A20BC6CCF17D7EE9BB7EF /* ANLongTapButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ANLongTapButton/ANLongTapButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANLongTapButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANLongTapButton/ANLongTapButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ANLongTapButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC4690C928EF72FB9BEADAFB5FF67B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 250F9F64E503A4CDAD80593477E2E6C5 /* Former.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Former/Former-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Former/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Former/Former.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Former;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0976BA22BF8993DA742F5DB58187ABA8 /* Build configuration list for PBXNativeTarget "ANLongTapButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8929C6CC0112B3207070626EF386ACE /* Debug */,
+				8385D85F6171BFA96343B6760B6E60C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F96B7E13D088F9B0140E462CD5524CC /* Build configuration list for PBXNativeTarget "SwiftOverlays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACDCACD58BF727C0A7B0728457C3C8D /* Debug */,
+				49F61BA78E234D53FA1DCE0E2BC83583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB7BDEF7CC6E89AF8F60F739A82D9D5 /* Build configuration list for PBXNativeTarget "ANLongTapButton-ANLongTapButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA02824F5A30D5BC50048842A9D18CC /* Debug */,
+				D8CAC1C95D415272B039FE2CC676B888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A5D8EF7AA3D2EAC1200D5ED745814F /* Build configuration list for PBXNativeTarget "SwiftHEXColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD990040C57DA6578DA0E9530EFA23F9 /* Debug */,
+				886382E8B3CA500A610C85256D2AA116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58CF4EBE1972DA3711FC03517573DF09 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F9B155C4353DF01DE513E0DE35683D /* Debug */,
+				5BB02D9A27D5D6EC5845E6BD29868595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B548A6831370042D73B10CD5E2458781 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53809ACDDB732D31EC7BA0F1D793839 /* Debug */,
+				48D2A84B2775D7662B3700C48FAE0460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30C336D5124961EDED1B7202DE8A490 /* Build configuration list for PBXNativeTarget "Former" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F2BAE1DB76A38FD83F1BEA2289373D /* Debug */,
+				FC4690C928EF72FB9BEADAFB5FF67B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

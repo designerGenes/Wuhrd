@@ -1,0 +1,22 @@
+PODS:
+  - ANLongTapButton (1.0.0)
+  - Former (1.2.0)
+  - SnapKit (0.19.1)
+  - SwiftHEXColors (1.0.2)
+  - SwiftOverlays (1.0)
+
+DEPENDENCIES:
+  - ANLongTapButton
+  - Former
+  - SnapKit
+  - SwiftHEXColors
+  - SwiftOverlays (~> 1.0)
+
+SPEC CHECKSUMS:
+  ANLongTapButton: 48cf50595db52fed9506c5281969a8a554f1feac
+  Former: 7c5f4451116e118cafdb1be029e4264f9cb75295
+  SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
+  SwiftHEXColors: 1238ce6ee5c698ef9caf00fad72876602ecd9df6
+  SwiftOverlays: 6a47bab3ed2784c378f07b275269f9e8231526e6
+
+COCOAPODS: 0.39.0

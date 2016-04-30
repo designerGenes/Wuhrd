@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Nexa Bold.otf">
+            <string>NexaBold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CroppingBox" customModule="Passawuhrd" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCancel" destination="p3p-hn-Lip" id="39n-uv-PIk"/>
+                <outlet property="btnOk" destination="bFW-Iz-aIM" id="51J-k7-Tbf"/>
+                <outlet property="lblInfo" destination="3ju-Oo-fln" id="HDa-gV-A7R"/>
+                <outlet property="scrlPhoto" destination="1SL-pX-uXS" id="D4d-Ag-JB0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="511"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFW-Iz-aIM" customClass="ANLongTapButton" customModule="ANLongTapButton">
+                    <rect key="frame" x="115" y="453" width="50" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="KUq-VJ-dFx"/>
+                        <constraint firstAttribute="width" constant="50" id="LYE-6R-jJb"/>
+                        <constraint firstAttribute="width" secondItem="bFW-Iz-aIM" secondAttribute="height" multiplier="1:1" id="lsB-Yh-anr"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="btnSubmitSettings"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="barTrackColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="barColor">
+                            <color key="value" red="0.086274509799999996" green="0.7843137255" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgCircleColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="barWidth">
+                            <real key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="KUq-VJ-dFx"/>
+                            <exclude reference="LYE-6R-jJb"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="heldOk:" destination="-1" eventType="touchDown" id="yck-b7-jT2"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" text="Drag photo in any direction to crop" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="357" translatesAutoresizingMaskIntoConstraints="NO" id="3ju-Oo-fln">
+                    <rect key="frame" x="0.0" y="0.0" width="380" height="60"/>
+                    <color key="backgroundColor" red="0.8862745098" green="0.42745098040000001" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="7JW-25-oRm"/>
+                    </constraints>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                    <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3p-hn-Lip" customClass="ANLongTapButton" customModule="ANLongTapButton">
+                    <rect key="frame" x="215" y="452" width="51" height="51"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="p3p-hn-Lip" secondAttribute="height" multiplier="1:1" id="6S2-ve-jEW"/>
+                        <constraint firstAttribute="height" constant="50" id="ACh-ZD-tZx"/>
+                        <constraint firstAttribute="width" constant="50" id="pR6-Ji-CJm"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="btnCancelSettings"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="barTrackColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="barColor">
+                            <color key="value" red="0.086274509799999996" green="0.7843137255" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bgCircleColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="barWidth">
+                            <real key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="radiusBonus">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ACh-ZD-tZx"/>
+                            <exclude reference="pR6-Ji-CJm"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="heldCancel:" destination="-1" eventType="touchDown" id="VoM-vF-7S8"/>
+                    </connections>
+                </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1SL-pX-uXS">
+                    <rect key="frame" x="0.0" y="60" width="380" height="380"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="1SL-pX-uXS" secondAttribute="height" multiplier="1:1" id="95A-o6-bK5"/>
+                        <constraint firstAttribute="width" secondItem="1SL-pX-uXS" secondAttribute="height" multiplier="1:1" id="9BJ-4X-ktz"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="95A-o6-bK5"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="4DA-rZ-Scn"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.12549019610000001" green="0.12941176469999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="3ju-Oo-fln" firstAttribute="leading" secondItem="1SL-pX-uXS" secondAttribute="leading" id="4Wj-My-rfe"/>
+                <constraint firstAttribute="trailing" secondItem="3ju-Oo-fln" secondAttribute="trailing" id="DkF-vz-equ"/>
+                <constraint firstItem="p3p-hn-Lip" firstAttribute="top" secondItem="1SL-pX-uXS" secondAttribute="bottom" constant="12" id="IZC-zi-XDL"/>
+                <constraint firstItem="1SL-pX-uXS" firstAttribute="top" secondItem="3ju-Oo-fln" secondAttribute="bottom" id="Iuw-99-qwo"/>
+                <constraint firstItem="bFW-Iz-aIM" firstAttribute="top" secondItem="1SL-pX-uXS" secondAttribute="bottom" constant="8" id="LFv-NL-lGl"/>
+                <constraint firstAttribute="bottom" secondItem="bFW-Iz-aIM" secondAttribute="bottom" constant="8" id="LYE-mi-o9R"/>
+                <constraint firstItem="bFW-Iz-aIM" firstAttribute="top" secondItem="1SL-pX-uXS" secondAttribute="bottom" constant="13" id="M3m-hw-D1m"/>
+                <constraint firstItem="bFW-Iz-aIM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-50" id="MU9-Vq-Ea7"/>
+                <constraint firstItem="p3p-hn-Lip" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="50" id="Pba-Jo-BOa"/>
+                <constraint firstItem="3ju-Oo-fln" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Y83-pf-7Io"/>
+                <constraint firstItem="1SL-pX-uXS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="Yq1-qR-Yb5"/>
+                <constraint firstItem="3ju-Oo-fln" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Zr0-ER-ahD"/>
+                <constraint firstAttribute="trailing" secondItem="1SL-pX-uXS" secondAttribute="trailing" id="e1d-oP-Tc2"/>
+                <constraint firstItem="3ju-Oo-fln" firstAttribute="trailing" secondItem="1SL-pX-uXS" secondAttribute="trailing" id="kzY-ko-YkD"/>
+                <constraint firstItem="1SL-pX-uXS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qMb-YW-gdn"/>
+                <constraint firstAttribute="bottom" secondItem="p3p-hn-Lip" secondAttribute="bottom" constant="8" id="s0y-Yp-aqq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="4Wj-My-rfe"/>
+                    <exclude reference="kzY-ko-YkD"/>
+                    <exclude reference="Yq1-qR-Yb5"/>
+                    <exclude reference="LFv-NL-lGl"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="460" y="413.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btnCancelSettings" width="115" height="115"/>
+        <image name="btnSubmitSettings" width="116" height="115"/>
+    </resources>
+</document>
